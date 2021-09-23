@@ -1,1 +1,20 @@
-
+name: TESTCICD
+on:
+  push:
+    branches:
+      # - main                                            # name of your main branch
+        - testcicd                                        # name of the feature brach
+jobs:
+  TESTCICD:
+    name: TESTCICD
+    runs-on: windows-latest
+    
+    steps:
+    
+     #Add msbuild to PATH                                 # Add msbuild to PATH
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.0.3
+  
+     #To build dotnet application using MSBuild
+      - name: Build
+        run: msbuild ./RenderHTMLinView.sln
