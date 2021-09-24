@@ -19,5 +19,5 @@ jobs:
             
      #To build dotnet application using MSBuild           # Add the Solution file to msbuild 
        - name: build 
-         run:  msbuild .\RenderHTMLinView.sln /verbosity:normal /t:Rebuild /p:Configuration=Release
+         run:  msbuild RenderHTMLinView.sln /verbosity:normal /t:Rebuild /p:Configuration=Release
    
