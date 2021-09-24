@@ -17,6 +17,6 @@ jobs:
   
      #To build dotnet application using MSBuild           # Add the Solution file to msbuild
       - name: MSBuild
-        run:  msbuild.exe ./RenderHTMLinView.sln
+        run:  msbuild.exe testdevops/RenderHTMLinView.sln
         
    
