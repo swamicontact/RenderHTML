@@ -16,7 +16,7 @@ jobs:
         uses: microsoft/setup-msbuild@v1.0.3
   
      #To build dotnet application using MSBuild           # Add the Solution file to msbuild
-      - name: MSBuild
-        run:  msbuild.exe ./RenderHTMLinView.sln
+      - name: Build
+        run:  msbuild ./RenderHTMLinView.sln
         
    
