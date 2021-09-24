@@ -20,6 +20,6 @@ jobs:
      #To build dotnet application using MSBuild           # Add the Solution file to msbuild 
        - name: build 
          run:  |
-           cd src
+           cd testdevops
            msbuild RenderHTMLinView.sln /verbosity:normal /t:Rebuild /p:Configuration=Release
    
