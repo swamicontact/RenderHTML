@@ -11,12 +11,12 @@ jobs:
     
     steps:
     
-     #Add msbuild to PATH                                 # Integrate msbuild to GHA
-      - name:  Add msbuild to PATH
-        uses: microsoft/setup-msbuild@v1.0.3
-  
-     #To build dotnet application using MSBuild           # Add the Solution file to msbuild
-      - name: Build
-        run:  msbuild ./RenderHTMLinView.sln
+     #Add msbuild to PATH
+       - name: Add msbuild to PATH
+         uses: microsoft/setup-msbuild@v1.0.3
+         with:
+          vs-version: '[16.11,16.12)'
+            
+     #To build dotnet application using MSBuild           # Add the Solution file to msbuild     
         
    
