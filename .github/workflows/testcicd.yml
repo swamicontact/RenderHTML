@@ -2,8 +2,8 @@ name: TESTCICD
 on:
   push:
     branches:
-      # - main                                            # name of your main branch
-        - testcicd                                        # name of the feature brach
+       - main                                            # name of your main branch
+       # - testcicd                                        # name of the feature brach
 jobs:
   TESTCICD:
     name: TESTCICD
