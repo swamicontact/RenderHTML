@@ -17,6 +17,7 @@ jobs:
          with:
           vs-version: '[16.11,16.12)'
             
-     #To build dotnet application using MSBuild           # Add the Solution file to msbuild     
-        
+     #To build dotnet application using MSBuild           # Add the Solution file to msbuild 
+       - name: echo msbuild path
+         run:  msbuild -version         
    
