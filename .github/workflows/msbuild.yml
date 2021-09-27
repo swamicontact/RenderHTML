@@ -16,5 +16,5 @@ jobs:
   
      #To build dotnet application using MSBuild
       - name: Build
-        run: msbuild ./RenderHTMLinView.sln
+        run: msbuild testdevops\RenderHTMLinView.sln
       
