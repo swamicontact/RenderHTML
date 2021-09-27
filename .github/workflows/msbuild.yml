@@ -18,5 +18,7 @@ jobs:
           
      #To build dotnet application using MSBuild
      
+    - name: echo Build
+    
     - name: Build
       run: msbuild ./RenderHTMLinView/RenderHTMLinView.csproj
