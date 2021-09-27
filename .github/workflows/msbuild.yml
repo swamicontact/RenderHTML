@@ -19,4 +19,4 @@ jobs:
      #To build dotnet application using MSBuild
      
     - name: Build
-      run: msbuild ./RenderHTMLinView.sln
+      run: msbuild ./RenderHTMLinView/RenderHTMLinView.csproj
