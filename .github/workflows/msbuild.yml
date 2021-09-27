@@ -17,18 +17,6 @@ jobs:
       run: msbuild -version              
           
      #To build dotnet application using MSBuild
-     
-    - name: echo Build
-      run :  msbuild -version
-      
-    - name: Install dependencies
-      run: dotnet restore .\RenderHTMLinView.sln
-      
-    - name: Build
-      run: dotnet build  RenderHTMLinView.sln --configuration Release --no-restore
-      
-   # - name: Test
-   #   run: dotnet test --no-restore --verbosity normal
 
-    #- name: Build
-    # run: msbuild RenderHTMLinView.sln
+    - name: Build
+      run: msbuild .\RenderHTMLinView.sln
