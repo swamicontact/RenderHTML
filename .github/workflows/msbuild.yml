@@ -20,6 +20,15 @@ jobs:
      
     - name: echo Build
       run :  msbuild -version
-
+      
+    - name: Install dependencies
+      run: dotnet restore
+      
     - name: Build
-      run: msbuild RenderHTMLinView.sln
+      run: dotnet build  RenderHTMLinView.sln --configuration Release --no-restore
+      
+   # - name: Test
+   #   run: dotnet test --no-restore --verbosity normal
+
+    #- name: Build
+    # run: msbuild RenderHTMLinView.sln
