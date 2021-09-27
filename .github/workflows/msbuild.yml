@@ -1,0 +1,20 @@
+name: CICD
+on:
+  push:
+    branches:
+      - main # or the name of your main branch
+
+jobs:
+  CICD:
+    name: CICD
+    runs-on: windows-latest
+    steps:
+      
+     #Add msbuild to PATH
+      - name: Add msbuild to PATH
+        uses: microsoft/setup-msbuild@v1.0.2
+  
+     #To build dotnet application using MSBuild
+      - name: Build
+        run: msbuild ./RenderHTMLinView.sln
+      
