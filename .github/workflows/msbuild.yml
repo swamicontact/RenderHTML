@@ -11,8 +11,14 @@ jobs:
     steps:
       
      #Add msbuild to PATH
-      - name: Add msbuild to PATH
-        uses: microsoft/setup-msbuild@v1.0.3       
+      #- name: Add msbuild to PATH
+      #  uses: microsoft/setup-msbuild@v1.0.3       
+       - name: Setup MSBuild (vswhere-path)
+         id: setup_msbuild_explicit
+         uses: ./
+         with:
+          vswhere-path: C:\ProgramData\chocolatey\bin
+
               
           
      #To build dotnet application using MSBuild
