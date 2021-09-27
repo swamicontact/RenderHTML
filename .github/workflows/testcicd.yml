@@ -2,7 +2,7 @@ name: TESTCICD
 on:
   push:
     branches:
-        - main                                            # name of your main branch
+        #- master                                            # name of your main branch
         - testcicd                                        # name of the feature brach
 jobs:
   TESTCICD:
