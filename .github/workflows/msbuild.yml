@@ -9,8 +9,7 @@ jobs:
     name: CICD
     runs-on: windows-latest
     steps:
-     - uses: actions/checkout@v2           
-          
+         
      - name: Setup MSBuild (vswhere-path)
        id: setup_msbuild_explicit
        uses: ./
