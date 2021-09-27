@@ -22,7 +22,7 @@ jobs:
       run :  msbuild -version
       
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore .\RenderHTMLinView.sln
       
     - name: Build
       run: dotnet build  RenderHTMLinView.sln --configuration Release --no-restore
