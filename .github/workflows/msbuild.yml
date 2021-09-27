@@ -14,7 +14,7 @@ jobs:
       - name: Add msbuild to PATH
         uses: microsoft/setup-msbuild@v1.0.3
         with:
-         vswhere-path: "file:///C:/Program%20Files%20(x86)/MSBuild/14.0/Bin/"
+         vswhere-path: "C:/Program%20Files%20(x86)/MSBuild/14.0/Bin/"
   
      #To build dotnet application using MSBuild
       - name: Build
