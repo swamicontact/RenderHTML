@@ -74,4 +74,7 @@ C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\bin\Antlr3.Runtime.pdb
 C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\obj\Debug\RenderHTMLinView.dll
 C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\obj\Debug\RenderHTMLinView.pdb
-C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\obj\Debug\RenderHTMLinView.csprojResolveAssemblyReference.cache
+C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\bin\RenderHTMLinView.dll.config
+C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\obj\Debug\RenderHTMLinView.csproj.AssemblyReference.cache
+C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\obj\Debug\RenderHTMLinView.csproj.CoreCompileInputs.cache
+C:\RSN\RenderHTMLinView\RenderHTMLinView\RenderHTMLinView\obj\Debug\RenderHTMLinView.csproj.CopyComplete
