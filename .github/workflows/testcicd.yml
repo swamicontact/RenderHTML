@@ -1,0 +1,26 @@
+name: TESTCICD
+on:
+  push:
+    branches:
+        #- master                                            # name of your main branch
+        - testcicd                                        # name of the feature brach
+jobs:
+  TESTCICD:
+    name: TESTCICD
+    runs-on: windows-latest
+    
+    steps:
+    
+     #Add msbuild to PATH                                 # Integrate msbuild to GHA
+      - name: Add MSBuild to PATH
+        uses: microsoft/setup-msbuild@v1.0.3
+  
+      - name: echo MSBuild
+        run:  msbuild -version
+  
+  
+     #To build dotnet application using MSBuild           # Add the Solution file to msbuild
+      - name: MSBuild
+        run:  msbuild.exe ./RenderHTMLinView.sln
+        
+   
